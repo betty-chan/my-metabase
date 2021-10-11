@@ -155,6 +155,13 @@ export default class Text extends Component {
                 getSettingsStyle(settings),
               )}
               source={settings.text}
+              renderers={{
+                link: (props) => (
+                  <a href={props.href} target="_blank" rel="noreferrer">
+                    {props.children}
+                  </a>
+                ),
+              }}
             />
           ) : (
             <textarea
@@ -189,6 +196,13 @@ export default class Text extends Component {
               getSettingsStyle(settings),
             )}
             source={settings.text}
+            renderers={{
+              link: (props) => (
+                <a href={props.href} target="_blank" rel="noreferrer">
+                  {props.children}
+                </a>
+              ),
+            }}
           />
         </div>
       );
