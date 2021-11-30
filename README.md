@@ -13,9 +13,6 @@ To 前端
 2. 前端特殊部署方式  
 代码修改后，运行yarn build生成文件到resource/frontend_client目录下  
 替换jar里的frontend_client目录  
-3. 部署信息  
-应用服务器：39.108.189.121  
-部署目录：/data/metabase/  
 参考  
 官方开源代码地址： 「GitHub - metabase/metabase: The simplest, fastest way to get business intelligence and analytics  to everyone in your company」- https://github.com/metabase/metabase  
 目前版本官方开发说明文档： 「metabase.com/...」- https://www.metabase.com/docs/v0.39/developers-guide.html 
